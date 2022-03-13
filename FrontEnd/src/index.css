@@ -14,10 +14,8 @@ html, body {
 }
 
 a, a:hover {
-  text-decoration: none;
-  color: unset;
+    text-decoration: none;
+    color: none;
+
 }
 
-header {
-  background-color: #4D41C0;
-}
