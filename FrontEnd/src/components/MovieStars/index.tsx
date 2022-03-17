@@ -1,17 +1,18 @@
-import {ReactComponent as StarFull} from "assets/img/starfull.svg"
-import {ReactComponent as StarEmpty} from "assets/img/star-empty.svg"
-import {ReactComponent as StarHalf} from "assets/img/star-half.svg"
-import "./style.css"
+import { ReactComponent as StarFull } from "assets/img/starfull.svg";
+import { ReactComponent as StarEmpty } from "assets/img/star-empty.svg";
+import { ReactComponent as StarHalf } from "assets/img/star-half.svg";
+import "./style.css";
 
-
-function MovieStars(){
-    return(<div className="dsmovie-stars-container">
-    <StarFull />
-    <StarFull />
-    <StarFull />
-    <StarHalf />
-    <StarEmpty />
-  </div>)
+function MovieStars() {
+  return (
+    <div className="dsmovie-stars-container">
+      <StarFull />
+      <StarFull />
+      <StarFull />
+      <StarHalf />
+      <StarEmpty />
+    </div>
+  );
 }
 
-export default MovieStars
+export default MovieStars;
